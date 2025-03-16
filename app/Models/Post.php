@@ -14,4 +14,10 @@ class Post extends Model
         //one,many,belongto,belongstomany
         return $this->belongsTo(Category::class);
     }
+
+    public function user()
+    {
+        //one,many,belongto,belongstomany
+        return $this->belongsTo(User::class);
+    }
 }
