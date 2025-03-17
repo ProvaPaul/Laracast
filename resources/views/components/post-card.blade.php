@@ -28,7 +28,7 @@ class="transition-colors duration-300 hover:bg-gray-100 border border-black bord
 
         <div class="text-sm mt-4">
             <p>
-                {{ $posts->excerpt }}
+                {!! $posts->excerpt !!}
             </p>
         </div>
 

@@ -34,7 +34,7 @@
 
                 <div class="text-sm mt-2">
                     <p>
-                        {{ $posts->excerpt }}
+                        {!! $posts->excerpt !!}
                     </p>
                 </div>
 
